@@ -99,6 +99,14 @@ onUnmounted(() => {
       gap: 10px;
     }
 
+    &__clear {
+      width: 24px;
+      display: flex;
+      height: 28px;
+      justify-content: center;
+      align-items: center;
+    }
+
     &__arrow {
       transition-duration: 0.3s;
     }
